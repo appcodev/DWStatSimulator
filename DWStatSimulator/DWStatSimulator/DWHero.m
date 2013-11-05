@@ -46,12 +46,12 @@
     self.vit = @([self.baseVit integerValue]+[self.bonusVit integerValue]);
     
     //second stat
-    self.hp = @([self.baseHp integerValue]+[self.upgradeHp integerValue]*[self.vit integerValue]);
-    self.def = @([self.baseDef integerValue]+[self.upgradeDef integerValue]*[self.vit integerValue]);
-    self.att = @([self.baseAtt integerValue]+[self.upgradeAtt integerValue]*[self.pow integerValue]);
-    self.spd = @([self.baseSpd integerValue]+[self.upgradeSpd integerValue]*[self.agi integerValue]);
-    self.flee = @([self.baseFlee integerValue]+[self.upgradeFlee integerValue]*[self.agi integerValue]);
-    self.cri = @([self.baseCri integerValue]+[self.upgradeCri integerValue]*[self.agi integerValue]);
+    self.hp = @([self.baseHp floatValue]+[self.upgradeHp floatValue]*[self.bonusVit integerValue]);
+    self.def = @([self.baseDef floatValue]+[self.upgradeDef floatValue]*[self.bonusVit integerValue]);
+    self.att = @([self.baseAtt floatValue]+[self.upgradeAtt floatValue]*[self.bonusPow integerValue]);
+    self.spd = @([self.baseSpd floatValue]+[self.upgradeSpd floatValue]*[self.bonusAgi integerValue]);
+    self.flee = @([self.baseFlee floatValue]+[self.upgradeFlee floatValue]*[self.bonusAgi integerValue]);
+    self.cri = @([self.baseCri floatValue]+[self.upgradeCri floatValue]*[self.bonusAgi integerValue]);
     
 }
 

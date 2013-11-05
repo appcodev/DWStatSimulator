@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37DD11EA1829645D00FF9D9D /* kanon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DD11E51829645D00FF9D9D /* kanon.png */; };
+		37DD11EB1829645D00FF9D9D /* kala.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DD11E61829645D00FF9D9D /* kala.png */; };
+		37DD11EC1829645D00FF9D9D /* manoa.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DD11E71829645D00FF9D9D /* manoa.png */; };
+		37DD11ED1829645D00FF9D9D /* dusit.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DD11E81829645D00FF9D9D /* dusit.png */; };
+		37DD11EE1829645D00FF9D9D /* wana.png in Resources */ = {isa = PBXBuildFile; fileRef = 37DD11E91829645D00FF9D9D /* wana.png */; };
 		ACFF221118293407003352F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFF221018293407003352F2 /* Foundation.framework */; };
 		ACFF221318293407003352F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFF221218293407003352F2 /* CoreGraphics.framework */; };
 		ACFF221518293407003352F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFF221418293407003352F2 /* UIKit.framework */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37DD11E51829645D00FF9D9D /* kanon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanon.png; sourceTree = "<group>"; };
+		37DD11E61829645D00FF9D9D /* kala.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kala.png; sourceTree = "<group>"; };
+		37DD11E71829645D00FF9D9D /* manoa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manoa.png; sourceTree = "<group>"; };
+		37DD11E81829645D00FF9D9D /* dusit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dusit.png; sourceTree = "<group>"; };
+		37DD11E91829645D00FF9D9D /* wana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wana.png; sourceTree = "<group>"; };
 		ACFF220D18293407003352F2 /* DWStatSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DWStatSimulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACFF221018293407003352F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACFF221218293407003352F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -84,6 +94,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37DD11E41829645D00FF9D9D /* chars */ = {
+			isa = PBXGroup;
+			children = (
+				37DD11E51829645D00FF9D9D /* kanon.png */,
+				37DD11E61829645D00FF9D9D /* kala.png */,
+				37DD11E71829645D00FF9D9D /* manoa.png */,
+				37DD11E81829645D00FF9D9D /* dusit.png */,
+				37DD11E91829645D00FF9D9D /* wana.png */,
+			);
+			path = chars;
+			sourceTree = "<group>";
+		};
 		ACFF220418293407003352F2 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +144,7 @@
 				ACFF222218293407003352F2 /* Main.storyboard */,
 				ACFF222518293407003352F2 /* DWViewController.h */,
 				ACFF222618293407003352F2 /* DWViewController.m */,
+				37DD11E41829645D00FF9D9D /* chars */,
 				ACFF222818293407003352F2 /* Images.xcassets */,
 				ACFF221718293407003352F2 /* Supporting Files */,
 				ACFF22451829374F003352F2 /* datastat.plist */,
@@ -239,8 +262,13 @@
 			files = (
 				ACFF222918293407003352F2 /* Images.xcassets in Resources */,
 				ACFF221B18293407003352F2 /* InfoPlist.strings in Resources */,
+				37DD11EB1829645D00FF9D9D /* kala.png in Resources */,
 				ACFF22461829374F003352F2 /* datastat.plist in Resources */,
+				37DD11ED1829645D00FF9D9D /* dusit.png in Resources */,
 				ACFF222418293407003352F2 /* Main.storyboard in Resources */,
+				37DD11EC1829645D00FF9D9D /* manoa.png in Resources */,
+				37DD11EA1829645D00FF9D9D /* kanon.png in Resources */,
+				37DD11EE1829645D00FF9D9D /* wana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +499,7 @@
 				ACFF224118293407003352F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ACFF224218293407003352F2 /* Build configuration list for PBXNativeTarget "DWStatSimulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +508,7 @@
 				ACFF224418293407003352F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

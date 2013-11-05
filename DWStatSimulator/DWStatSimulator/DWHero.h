@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+static const int MAX_STAT_POINT = 19;
+
 @interface DWHero : NSObject
 
 @property (strong,nonatomic) NSNumber *pow,*agi,*vit,
